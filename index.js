@@ -43,7 +43,7 @@ function setTimerText() {
 	let seconds = Math.floor(totalSeconds % 60);
 	let timerText = padNumber(minutes) + ":" + padNumber(seconds);
 	timer.innerHTML = timerText;
-	timer.style.color = isInWorkingPeriod ? "black" : "red";
+	timer.style.color = isInWorkingPeriod ? "white" : "red";
 }
 
 function reset(clearPeriodTimeout) {
